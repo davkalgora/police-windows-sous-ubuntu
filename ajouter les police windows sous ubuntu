@@ -1,0 +1,7 @@
+
+
+Si vous disposez d'une version de Windows, installée en dual-boot, et équipée de ces polices un lien symbolique du dossier Windows/Fonts vers /usr/share/fonts/Windows (pour tous les utilisateurs, à effectuer avec les droits d'administrateur) ou vers ~/.fonts/Windows vous rendra toutes ces polices accessibles.
+
+sudo ln -s /media/chemin/vers/partition/windows/Windows/Fonts /usr/share/fonts/windows
+
+Il est aussi possible de copier le dossier Fonts dans le répertoire personnel en le renommant .fonts .
